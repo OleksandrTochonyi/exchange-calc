@@ -1,0 +1,11 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px 50px;
+}
+
+.unicorn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

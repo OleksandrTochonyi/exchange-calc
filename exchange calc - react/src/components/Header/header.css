@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  border: 1px solid rgb(87, 87, 87);
+  box-shadow: 2px 2px 2px 2px rgb(87, 87, 87);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+.table {
+  width: 50%;
+}

@@ -1,0 +1,19 @@
+<header class="header">
+  <h2>Курс валют по состоянию на {{currentDay}}</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Валюта</th>
+        <th scope="col">Покупка</th>
+        <th scope="col">Продажа</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let currency of currencies">
+      <tr>
+        <th>{{currency.ccy}}</th>
+        <td>{{currency.buy}}</td>
+        <td>{{currency.sale}}</td>
+      </tr>
+    </tbody>
+  </table>
+</header>

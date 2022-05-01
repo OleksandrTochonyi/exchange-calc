@@ -1,0 +1,14 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid rgb(0, 146, 190);
+  box-shadow: 2px 2px 2px 2px rgb(0, 146, 190);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.calculator__title {
+  margin-bottom: 50px;
+}
